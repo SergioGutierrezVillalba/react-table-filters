@@ -1,0 +1,35 @@
+{
+  "name": "react-table-filters",
+  "version": "0.0.1",
+  "description": "React filters for tables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioGutierrezVillalba/react-table-filters.git"
+  },
+  "keywords": [
+    "Filters",
+    "react",
+    "tables"
+  ],
+  "author": "Sergio Gutiérrez Villalba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SergioGutierrezVillalba/react-table-filters/issues"
+  },
+  "homepage": "https://github.com/SergioGutierrezVillalba/react-table-filters#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4"
+  },
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  }
+}
